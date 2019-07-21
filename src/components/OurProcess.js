@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import bg from '../assets/bg.jpg'
+import { Container, Row, Col, Image } from 'react-bootstrap'
+import team from '../assets/team.jpg'
 
 const OurProcess = () => (
   <div>
@@ -13,6 +13,7 @@ const OurProcess = () => (
           </div>
         </Col>
       </Row>
+      <Row>
         <Col lg={ 3 } sm={ 6 }>
           <div>
             <h2 className="mb-1">01</h2>
@@ -73,9 +74,15 @@ consequat.
             </a>
           </div>
         </Col>
-      <Row>
       </Row>
     </Container>
+    <div>
+      <Image
+        src={ team }
+        fluid
+        className="mt-3"
+      />
+    </div>
   </div>
 )
 

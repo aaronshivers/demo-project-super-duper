@@ -2,7 +2,6 @@ import React from 'react'
 import NavbarComponent from './NavbarComponent'
 import JumbotronComponent from './JumbotronComponent'
 import OurProcess from './OurProcess'
-// import { Container } from 'react-bootstrap'
 
 const App = () => (
   <div>
