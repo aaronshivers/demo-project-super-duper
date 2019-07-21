@@ -1,8 +1,13 @@
 import React from 'react'
+import NavbarComponent from './NavbarComponent'
+import { Container } from 'react-bootstrap'
 
 const App = () => (
   <div>
-    <h1>demo-project-super-duper</h1>
+    <NavbarComponent />
+    <Container>
+      <h1>demo-project-super-duper</h1>
+    </Container>
   </div>
 )
 
